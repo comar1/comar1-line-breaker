@@ -58,6 +58,7 @@ textarea{
   height:42rem;
   margin-top:15px;
   padding:10px;
+  color: #111;
 }
 
 .buttons{
