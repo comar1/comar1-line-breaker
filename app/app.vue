@@ -12,7 +12,7 @@ function formatLyrics() {
     return
   }
 
-  const sections = ["Verse", "Chorus", "Bridge", "Pre-Chorus", "Tag"]
+  const sections = ["Verse", "Chorus", "Bridge", "Pre-Chorus", "Tag", "Refrain"]
   const lines = inputLyrics.value.split("\n")
   const result = []
 
@@ -94,9 +94,6 @@ async function copyToClipboard() {
 </template>
 
 <style>
-*{
-  /* outline: 1px solid red; */
-}
 body {
   font-family: sans-serif;
   background: #111;
